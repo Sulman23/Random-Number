@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color:rgb(53, 157, 226);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 10px;
+}
+
+.container span {
+    display: block;
+    font-size: 8rem;
+    color: orangered;
+    margin-bottom: 20px;
+}
+
+.container button {
+    background-color: rgb(84, 4, 121);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.2rem;
+}
