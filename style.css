@@ -17,12 +17,12 @@ body {
 .container {
     background-color: #fff;
     padding: 2rem;
-    border: 1px solid black;
+    border: 2px solid palevioletred;
     border-radius: 15px;
     text-align: center;
 }
 
-.container h1 {
+.container h2 {
     margin-bottom: 10px;
 }
 

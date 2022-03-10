@@ -1,11 +1,9 @@
+// Selecting Necessory Elements
 let number = document.getElementById("number");
 let btn = document.getElementById("number-btn");
 
-// console.log(btn);
-
+// Adding Click Event on Button
 btn.addEventListener("click", () => {
-
-    let randomNumber = Math.ceil( Math.random() * 100); 
-    number.innerText = randomNumber;
-    
+    let randomNumber = Math.ceil( Math.random() * 10); 
+    number.innerText = randomNumber;   
 })
